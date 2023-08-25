@@ -16,6 +16,6 @@ public class SpringbootDemoApplication {
 
 	@GetMapping("/sayHello")
 	public String sayHello() {
-		return "Hello and hi  from Shell , Today's date is : "+ new java.util.Date();
+		return "Hello and hi thanks from Shell , Today's date is : "+ new java.util.Date();
 	}
 }
